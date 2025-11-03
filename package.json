@@ -1,16 +1,14 @@
 ﻿{
   "name": "demo-node",
   "version": "1.0.0",
-  "description": "",
+  "description": "minimal node app for jenkins ci demo",
   "main": "index.js",
+  "license": "MIT",
   "scripts": {
-    "test": "echo ""OK"" && exit 0"
+    "test": "echo OK && exit 0",
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^4.19.2"
   }
 }
